@@ -31,11 +31,11 @@ const SideBar = ({openSidebarToggle, OpenSidebar, children}) => {
                     <i className="fa-solid fa-folder icon"></i> Faculty
                     </a>
                 </li>
-                {/* <li className='sidebar-list-item'>
+                <li className='sidebar-list-item'>
                     <a href="">
                         <i className="fa-solid fa-ticket icon"></i> Coupon
                     </a>
-                </li> */}
+                </li>
                 {/* <li className='sidebar-list-item'>
                     <a href="">
                         <BsFillGearFill className='icon'/> Setting

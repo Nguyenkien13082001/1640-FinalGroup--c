@@ -10,6 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Profile from "./Page/profileAdmin";
 import App from "./App";
+import AdminChart from "./Page/adminChart";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route path="admin/manage_accounts" element={<ManageAccount/>}/>
         <Route path="admin/faculty" element={<AdminFaculty/>}/>
         <Route path="admin/profile" element={<Profile/>}/>
+        <Route path="admin/dashboard" element={<AdminChart/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
